@@ -1,4 +1,7 @@
+import './../index.css';
 import numeral from 'numeral';
 
+/* eslint-disable no-console */
+
 const courseValue = numeral(1000).format('$0,0.00');
-console.log(`I would like to pay ${couseValue} for this awesome course!`)
+console.log(`I would like to pay ${courseValue} for this awesome course!`)
